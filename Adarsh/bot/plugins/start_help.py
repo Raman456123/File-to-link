@@ -54,21 +54,21 @@ async def start(b, m):
                     disable_web_page_preview=True
                 )
                 return
-        except UserNotParticipant:
-             await StreamBot.send_photo(
-                chat_id=m.chat.id,
-                photo="https://telegra.ph/file/68259e3c723b935e22e69.jpg",
-                caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/cinemadudes1")
-                        ]
-                    ]
-                ),
+        # except UserNotParticipant:
+        #      await StreamBot.send_photo(
+        #         chat_id=m.chat.id,
+        #         photo="https://telegra.ph/file/68259e3c723b935e22e69.jpg",
+        #         caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
+        #         reply_markup=InlineKeyboardMarkup(
+        #             [
+        #                 [
+        #                     InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/cinemadudes1")
+        #                 ]
+        #             ]
+        #         ),
                 
-            )
-             return
+        #     )
+        #      return
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
