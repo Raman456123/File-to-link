@@ -36,7 +36,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://shelby:Kumar396@cluster0.k3o9hwv.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', '@https://t.me/cinemadudes1'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'https://t.me/cinemadudes1'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))     
     SHORTLINK_URL = getenv('SHORTLINK_URL', 'tnshort.net')
     SHORTLINK_API = getenv('SHORTLINK_API', 'd0d892782ce7d93c095b28f636a54bb68e6407da')
