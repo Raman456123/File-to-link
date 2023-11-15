@@ -69,13 +69,13 @@ async def start(b, m):
                 
             )
              return
-        # except Exception:
-        #     await b.send_message(
-        #         chat_id=m.chat.id,
-        #         text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/greymatters_bots_discussion'>CLICK HERE FOR SUPPORT </a></b>",
+        except Exception:
+            await b.send_message(
+                chat_id=m.chat.id,
+                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/CinemaDudes1'>CLICK HERE FOR SUPPORT </a></b>",
                 
-        #         disable_web_page_preview=True)
-        #     return
+                disable_web_page_preview=True)
+            return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
