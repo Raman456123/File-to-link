@@ -43,8 +43,13 @@ async def render_page(id, secure_hash):
         <button style="font-size: 20px; background-color: orange; border-radius: 10px;" onclick="window.location.href = 'vlc://{current_url}'">VLC player</button> &nbsp <br>
         <p>&nbsp</p>
         <button style="font-size: 20px; background-color: red; border-radius: 10px;" onclick="window.location.href = 'playit://playerv2/video?url={current_url}&amp;title={file_data.file_name}'">Playit player</button> &nbsp <br>
-        <p>&nbsp</p>
-        <button style="font-size: 20px; background-color: yellow; border-radius: 10px;" onclick="window.location.href = '{current_url}'">Save in your gallery</button> &nbsp
+        <p>&nbsp</p><br>
+
+    
+        <div class="separator" style="clear: both; text-align: center;"><a href="https://afodreet.net/4/6591124" style="margin-left: 1em; margin-right: 1em;" target="_blank">
+        <img border="0" data-original-height="282" data-original-width="1016" height="66" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Csq7pqlkzwKjEpyPyfUyDHDwa4dur_cfDbzFLQ-F8yGRbHa4DtR0Qpb39LPo-IPgN1W5K2nSuK-9MudDQhrg2KINzP30kWvieE0X3mKMeU2xS40a2OR9yIbxXcGro846Gzi66fDlB8OUoDUMjvbU-abnzpE1iRgOFHxXhhYW_xAQkOUWx4ZMhfFfrD0/w237-h66/177430e5f333b6a4b00ac6b82a47287a3972fe96.png" width="237" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><br /></div><br /></i>
+        
+        <button style="font-size: 20px; background-color: yellow; border-radius: 10px;" onclick="window.location.href = '{current_url}', '_blank'">Direct Download</button> &nbsp
     </center>
 </p>
 </p>
