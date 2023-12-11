@@ -49,7 +49,9 @@ async def render_page(id, secure_hash):
         <div class="separator" style="clear: both; text-align: center;"><a href="https://afodreet.net/4/6591124" style="margin-left: 1em; margin-right: 1em;" target="_blank">
         <img border="0" data-original-height="282" data-original-width="1016" height="66" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Csq7pqlkzwKjEpyPyfUyDHDwa4dur_cfDbzFLQ-F8yGRbHa4DtR0Qpb39LPo-IPgN1W5K2nSuK-9MudDQhrg2KINzP30kWvieE0X3mKMeU2xS40a2OR9yIbxXcGro846Gzi66fDlB8OUoDUMjvbU-abnzpE1iRgOFHxXhhYW_xAQkOUWx4ZMhfFfrD0/w237-h66/177430e5f333b6a4b00ac6b82a47287a3972fe96.png" width="237" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><br /></div><br /></i>
         
-        <button style="font-size: 20px; background-color: yellow; border-radius: 10px;" onclick="window.location.href = '{current_url}', '_blank'">Direct Download</button> &nbsp
+        <button style="background-color: green;text-align: center; color: white; font-size: larger; border-radius: 10px; border: none;
+            height: 40px; font-weight: 600;" onclick="window.location.href = '{current_url}', '_blank'">⬇️Download</button> &nbsp
+    <button onclick="window.location.href = 'f'{Var.URL}/{str(id)}/{file_data.file_name}?hash={secure_hash}'', '_blank'">Download now </button>
     </center>
 </p>
 </p>
